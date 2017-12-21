@@ -1,2 +1,6 @@
-config:
-  name: A Value That Will Be Overridden by the Config Server
+spring:
+  application:
+    name: ConfigServerDemo
+
+ConfigServerDemo:
+  fromvault: a non-secret value from application.yml
