@@ -1,0 +1,4 @@
+spring:
+  cloud:
+    config:
+     uri: ${vcap.services.YOUR-SERVICE-NAME.credentials.uri:http://user:password@localhost:8888}
